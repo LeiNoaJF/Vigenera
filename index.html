@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="womito.css"/>
+    <center>
+    
+</head>
+<body>
+    <section class="cosa_rara_que_contiene1">
+        <section class= "titulo"> ☆Cifrado Vigenere ☆</section>
+        <div class="tabs">
+            <p> ☆ Clave ☆</p>
+            <input type="text" id="clave" class="input">
+        </div>
+
+        <div class="container">
+            <div id="principal"> 
+                <p> ☆Texto a Cifrar / Descifrar ☆</p>
+                <textarea id="cadena" class="input"></textarea>
+                <div class="tabs"> 
+                    <input type="button" value="Cifrar" onclick="codificar()" class="btn btnActivo">
+                    <input type="button" value="Decifrar" onclick="decodificar()" class="btn btnActivo"> 
+                </div>
+            </div>
+            <div id="lateral" >
+                <p> ☆Texto Cifrado/Descifrado ☆</p>
+                <div id="resultado" class="input"> </div>
+            </div>
+        </div>
+    </section></center>
+    <script src="js/logica.js" ></script>
+</body>
+</html>
