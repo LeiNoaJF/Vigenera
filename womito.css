@@ -1,0 +1,74 @@
+body{
+    background-image: url("Fondo.png");
+    background-size: 100%;
+}
+.cosa_rara_que_contiene1{
+    margin-top: 6rem;
+	width:25%;
+	background-color:#def5ff;
+    border: solid  2px #000000;
+    overflow: auto;
+}
+.titulo{
+    height: 40px;
+    color:black;
+    font-size:20px;
+    background-color:#ffc8cd;
+    font-family: arial;
+    border-bottom: solid  2px #000000;
+    text-align-last: center;
+    
+}
+
+.btn{
+    font-size: Humble boys demo;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: #e5b4ff;
+    padding-top: 5px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid  2px #000000
+}
+p{
+    margin-bottom:1px;
+    margin-top: 1px;
+    font-size:25px; 
+    color: #000000;
+    font-family:  "Champagne & Limousines";
+
+}
+label{
+    font-size:18px; 
+    color: #000000;
+    font-family: "Champagne & Limousines";
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ip{
+    width:10%;
+    height:20px;
+    line-height:150%;
+    resize:none;
+}
+
+.input{
+    width: 300px;
+    font-family:"Champagne & Limousines";
+    font-size:18px;
+    line-height:22px;/*ancho*/
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:2px solid #000000;
+
+}
+#resultado{ 
+    width: 40%; 
+    float:center;
+    height: 150px;
+
+} 
